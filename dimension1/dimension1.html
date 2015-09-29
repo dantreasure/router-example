@@ -1,1 +1,7 @@
 <h1>{{message}}</h1>
+
+<ul>
+	<li ng-repeat="event in earthquakes">
+		<p ng-bind="event.humanReadableLocation"></p>
+	</li>
+</ul>
